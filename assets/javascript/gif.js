@@ -1,5 +1,5 @@
 
-var topic = ["Dog", "Cat", "Birds"]
+var topic = ["Bee Gees", "Earth Wind & Fire", "ABBA"]
 
 
 
@@ -17,9 +17,9 @@ function renderButtons(){
 
             console.log(this)
             var value = $(this).val()
-            var animal = topic[value]
+            var disco = topic[value]
 
-            searchGif(animal)
+            searchGif(disco)
         
 
         })
@@ -68,12 +68,12 @@ function searchGif(search){
 }
 
 // render results
-function renderGifs(animals){
+function renderGifs(disco){
 
     $("#gif-area").empty()
     // you need to be abe to click on the image and use other src with animated gif
-    for (i=0; i<animals.length; i++ ){
-        $("#gif-area").append(`<img class="gifs" src="${animals[i].images.downsized_still.url}"  source="${animals[i].images.downsized.url}">`)
+    for (i=0; i<disco.length; i++ ){
+        $("#gif-area").append(`<img class="gifs" src="${disco[i].images.downsized_still.url}"  source="${disco[i].images.downsized.url}">`)
     }
 
     //

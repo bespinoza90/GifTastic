@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+    background-image: url("../images/empty-disco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+
+}
+.container{
+    margin: 25px auto auto 30%;
+
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+#header-text {
+    color: white
+
+}
+
